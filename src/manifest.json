@@ -72,7 +72,8 @@
     "*://bugzilla.mozilla.org/*",
     "*://*.dobambam.com/*",
     "*://app.breeze.pm/*",
-    "*://www.gqueues.com/*"
+    "*://www.gqueues.com/*",
+    "*://tracker.bitbull.it/*"
   ],
   "icons": {
     "16": "images/icon-16.png",
@@ -135,7 +136,8 @@
         "*://bugzilla.mozilla.org/*",
         "*://*.dobambam.com/*",
         "*://app.breeze.pm/*",
-        "*://www.gqueues.com/*"
+        "*://www.gqueues.com/*",
+        "*://tracker.bitbull.it/*"
       ],
       "css": ["styles/style.css"],
       "js": ["scripts/common.js"]
@@ -340,6 +342,10 @@
     {
       "matches": ["*://www.gqueues.com/*"],
       "js": ["scripts/content/gqueues.js"]
+    },
+    {
+      "matches": ["*://tracker.bitbull.it/*"],
+      "js": ["scripts/content/redmine.js"]
     }
   ]
 }
